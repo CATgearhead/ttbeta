@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Miltonian+Tattoo&display=swap");
+
+body {
+  font-family: "Domine", serif;
+  margin: 0;
+  background: #fff;
+  color: #333;
+}
+
+header {
+  background-color: #fbaf17;
+  color: #001f3f;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.mascote {
+  width: 50px;
+  height: 50px;
+}
+
+h1 {
+  font-size: 22px;
+  margin: 0;
+}
+
+.tagline {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.categoria-nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 15px 0 0;
+  gap: 15px;
+}
+
+.categoria-nav li a {
+  color: #001f3f;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.categoria figcaption {
+  text-align: center;
+}
+
+main {
+  padding: 10px;
+}
+
+.categoria {
+  margin-bottom: 30px;
+}
+
+.categoria h2 {
+  color: rgb(0, 31, 63);
+  margin-bottom: 5px;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.galeria img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.galeria figcaption {
+  text-align: center;
+}
+
+.contato {
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+}
+
+.contato a {
+  color: #001f3f;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #fbaf17;
+  color: #001f3f;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .galeria {
+    justify-content: center;
+  }
+}
